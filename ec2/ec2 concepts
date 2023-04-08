@@ -1,0 +1,23 @@
+EC2 = elastic compute cloud = IaaS
+
+capabilities:
+
+renting vms (ec2 instances)
+storing data on virtual device (EBS)
+Distributing load across machines (ELB)
+Scaling the services using an auto-scaling group (ASG)
+
+------------------------------------------------------
+
+EC2 sizing and configuration options:
+
+OS
+compute power and cores(cpu)
+ram
+storage space 
+  network attached : ebs and efs
+  hardware : (Ec2 instance store)
+  
+network card, speed of card , public ip addresses
+firewall rules: securtiy group
+bootstart script - ec2 user data
